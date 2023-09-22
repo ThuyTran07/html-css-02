@@ -11,7 +11,6 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
-
 /* ============ COMMON ============ */
 .content {
   width: 1170px;
@@ -29,9 +28,15 @@ a {
   background: #171100;
   color: #fff;
   text-align: center;
+  font-size: 1.4rem;
   font-weight: 600;
   padding: 12px 24px;
   min-width: 118px;
+  line-height: 185.714%;
+}
+
+.btn:hover {
+  background: #ffb900;
 }
 
 /* ============ HEADER ============ */
@@ -85,6 +90,7 @@ a {
 .navbar .btn {
   margin-right: 0px;
   padding: 11px 41px;
+  font-size: 1.6rem;
 }
 
 /* ============ HEADER ============ */
@@ -147,7 +153,7 @@ a {
   align-items: center;
 }
 
-.hero .courses-info .course {
+.hero .courses-info .course-stats {
   margin-left: 16px;
 }
 
@@ -184,8 +190,10 @@ a {
 }
 
 .hero .btn-row .btn {
-  background: #ffb900;
-  padding: 17px 33px;
+  /* background: #ffb900; */
+  padding: 17px 34px;
+  font-size: 1.8rem;
+  line-height: 166.667%;
 }
 
 .hero .btn-row .video-btn {
@@ -234,4 +242,101 @@ a {
   color: #5f5b53;
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+/* ============ COURSES ============ */
+.course {
+  padding: 200px 0;
+}
+
+.course h2.title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 126.316%;
+  letter-spacing: -0.076rem;
+}
+
+.course .course-row {
+  position: relative;
+}
+
+.course .course-row .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 166.667%;
+}
+
+.course .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.course .card {
+  margin-top: 55px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.course .card-item {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+
+.course .card-image {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.card-item .card-info {
+  padding: 0 22px 22px;
+}
+
+.card-item .card-info .row {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item .card-info .rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-item .card-info .rating span {
+  margin-left: 6px;
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.card-item .card-info .title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 166.667%;
+}
+
+.card-item .card-info p {
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 185.714%;
+}
+
+.card-info .price {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
