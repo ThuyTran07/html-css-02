@@ -42,7 +42,7 @@ a {
 /* ============ HEADER ============ */
 .fixed-navbar {
   position: sticky;
-  top: -26px;
+  top: -16px;
   z-index: 1;
   background-color: #fffcf4;
   padding-top: 16px;
