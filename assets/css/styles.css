@@ -698,7 +698,7 @@ footer {
   line-height: 185.714%;
 }
 
-.footer-nav-column .address p {
+.footer-nav-column address p {
   margin-bottom: 12px;
   color: #bfbcb2;
   font-size: 1.4rem;
@@ -706,7 +706,7 @@ footer {
   line-height: 185.714%;
 }
 
-.footer-nav-column .address p b {
+.footer-nav-column address p b {
   color: #fff;
   font-weight: 600;
 }
